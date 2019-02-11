@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b35b1457-4cb0-4f4e-87c0-75ac48436f55" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Part3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studentlists.py" beforeDir="false" afterPath="$PROJECT_DIR$/studentlists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_studentlists.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_studentlists.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Part1CamelCase.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -35,11 +44,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/studentlists.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="204">
+              <caret line="57" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_studentlists.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+              <folding>
+                <element signature="e#105#153#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,6 +87,8 @@
         <option value="$PROJECT_DIR$/Part1CamelCase.py" />
         <option value="$PROJECT_DIR$/test_Part1CamelCase.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/studentlists.py" />
+        <option value="$PROJECT_DIR$/test_studentlists.py" />
       </list>
     </option>
   </component>
@@ -91,11 +114,6 @@
             <path>
               <item name="Lab 3" type="b2602c69:ProjectViewProjectNode" />
               <item name="hello_python_unittest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Lab 3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hello_python_unittest" type="462c0819:PsiDirectoryNode" />
-              <item name="student_lists" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -134,19 +152,19 @@
       <updated>1549489079574</updated>
       <workItem from="1549489091587" duration="1907000" />
       <workItem from="1549911374468" duration="4003000" />
-      <workItem from="1549918493188" duration="610000" />
+      <workItem from="1549918493188" duration="5862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6520000" />
+    <option name="totallyTimeSpent" value="11772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="1" width="1380" height="744" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8195122" visible="true" weight="0.25757575" />
-      <window_info id="Structure" order="1" sideWeight="0.18048781" side_tool="true" visible="true" weight="0.25757575" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8195122" visible="true" weight="0.19318181" />
+      <window_info id="Structure" order="1" sideWeight="0.18048781" side_tool="true" visible="true" weight="0.19318181" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -206,6 +224,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/studentlists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="57" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_studentlists.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+          <folding>
+            <element signature="e#105#153#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
