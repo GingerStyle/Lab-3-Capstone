@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b35b1457-4cb0-4f4e-87c0-75ac48436f55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/phone_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_Part1CamelCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Part1CamelCase.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_phone_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_phone_manager.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/test_phone_manager.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+              <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -168,12 +166,12 @@
       <workItem from="1549489091587" duration="1907000" />
       <workItem from="1549911374468" duration="4003000" />
       <workItem from="1549918493188" duration="8177000" />
-      <workItem from="1549996767884" duration="11718000" />
+      <workItem from="1549996767884" duration="12097000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25805000" />
+    <option name="totallyTimeSpent" value="26184000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="1" width="1380" height="744" extended-state="0" />
@@ -269,7 +267,7 @@
     <entry file="file://$PROJECT_DIR$/test_phone_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

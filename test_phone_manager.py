@@ -90,7 +90,7 @@ class TestPhoneManager(unittest.TestCase):
     def test_un_assign_phone(self):
         # TODO write this test and remove the self.fail() statement
         # Assign a phone, unasign the phone, verify the employee_id is None
-
+        self.fail()
 
 
     def test_get_phone_info_for_employee(self):
