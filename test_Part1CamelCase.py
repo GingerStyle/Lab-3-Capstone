@@ -13,5 +13,5 @@ class TestCamelCase(TestCase):
         self.assertEqual({'all', 'Of', 'These', 'Words'}, list_of_words)
 
 
-if __name__ == '__main__':
-    unittest.main()
+#if __name__ == '__main__':
+#    unittest.main()

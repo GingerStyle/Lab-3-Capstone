@@ -46,15 +46,17 @@ class PhoneAssignments():
 
     def add_employee(self, employee):
         # TODO raise exception if two employees with same ID are added
-        if employee in self.employees:
-            raise ValueError('This employee already exists')
+        for employee in self.employees:
+            if employee == employee:
+                raise PhoneError('This employee already exists')
         self.employees.append(employee)
 
 
     def add_phone(self, phone):
         # TODO raise exception if two phones with same ID are added
-        if phone in self.phones:
-            raise ValueError('This phone ID already exists')
+        for phone in self.phones:
+            if phone == phone:
+                raise PhoneError('This phone ID already exists')
         self.phones.append(phone)
 
 
@@ -62,12 +64,12 @@ class PhoneAssignments():
         # Find phone in phones list
         # TODO if phone is already assigned to an employee, do not change list, raise exception
         for phone in self.phones:
-            if phone_id == phone_id and employee != None:
-                raise ValueError('This phone is already assigned to an employee')
+            if phone_id == phone_id and phone.name != None:
+                raise PhoneError('This phone is already assigned to an employee')
         # TODO if employee already has a phone, do not change list, and raise exception
         for phone in self.phones:
             if employee == employee:
-                raise ValueError('This employee already has a phone')
+                raise PhoneError('This employee already has a phone')
         # TODO if employee already has this phone, don't make any changes. This should NOT raise an exception.
         for phone in self.phones:
             if phone_id == phone_id and employee == employee:
@@ -93,7 +95,7 @@ class PhoneAssignments():
                 return None
         # TODO  the method should raise an exception if the employee does not exist
         if employee not in self.employees:
-            raise ValueError('Employee does not exist')
+            raise PhoneError('Employee does not exist')
 
         for phone in self.phones:
             if phone.employee_id == employee.id:

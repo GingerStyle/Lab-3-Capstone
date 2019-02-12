@@ -35,28 +35,41 @@ class TestPhoneManager(unittest.TestCase):
     def test_create_and_add_new_employee(self):
         # TODO write this test and then remove the self.fail() statement
         # Add some employees and verify they are present in the PhoneAssignments.employees list
-        self.fail()
+        test_employee1 = Employee(1, 'David Hasselhoff')
+        test_employee2 = Employee(2, 'Gary Coleman')
+        test_PhoneAssignments = PhoneAssignments()
+        test_PhoneAssignments.add_employee(test_employee1)
+        test_PhoneAssignments.add_employee(test_employee2)
+        self.assertIn('David Hasselhoff', test_PhoneAssignments.employees)
+        self.assertIn('Gary Coleman', test_PhoneAssignments.employees)
 
 
     def test_create_and_add_employee_with_duplicate_id(self):
         # TODO write this test and then remove the self.fail() statement
         # TODO you'll need to fix the add_employee method in PhoneAssignments to make this test PhoneAssignments
         # This method will be similar to test_create_and_add_phone_with_duplicate_id
-        self.fail()
+        test_employee1 = Employee(1, 'David Hasselhoff')
+        test_employee2 = Employee(1, 'Gary Coleman')
+        test_PhoneAssignments = PhoneAssignments()
+        test_PhoneAssignments.add_employee(test_employee1)
+
+        with self.assertRaises(PhoneError):
+            test_PhoneAssignments.add_employee(test_employee2)
 
 
     def test_assign_phone_to_employee(self):
         # TODO write this test and remove the self.fail() statement
         # TODO you'll need to fix the assign method in PhoneAssignments
-
-        self.fail()
+        test_PhoneAssignments = PhoneAssignments()
+        test_PhoneAssignments.add_phone(1)
+        test_PhoneAssignments.assign(1, 'David Hasselhoff')
+        self.assertIn('David Hasselhoff', test_PhoneAssignments.phones)
 
 
     def test_assign_phone_that_has_already_been_assigned_to_employee(self):
         # If a phone is already assigned to an employee, it is an error to assign it to a different employee. A PhoneError should be raised.
         # TODO write this test and remove the self.fail() statement
         # TODO you'll need to fix the assign method in PhoneAssignments so it throws an exception if the phone is alreaady assigned.
-
         self.fail()
 
 
@@ -77,7 +90,7 @@ class TestPhoneManager(unittest.TestCase):
     def test_un_assign_phone(self):
         # TODO write this test and remove the self.fail() statement
         # Assign a phone, unasign the phone, verify the employee_id is None
-        self.fail()
+
 
 
     def test_get_phone_info_for_employee(self):
