@@ -61,8 +61,11 @@ class TestPhoneManager(unittest.TestCase):
         # TODO write this test and remove the self.fail() statement
         # TODO you'll need to fix the assign method in PhoneAssignments
         test_PhoneAssignments = PhoneAssignments()
-        test_PhoneAssignments.add_phone(1)
-        test_PhoneAssignments.assign(1, 'David Hasselhoff')
+        example_phone = Phone(1, "Android", "Galaxy")
+        example_employee = Employee(1, 'David Hasselhoff')
+        test_PhoneAssignments.add_phone(example_phone)
+        test_PhoneAssignments.add_employee(example_employee)
+        test_PhoneAssignments.assign(1, example_employee)
         self.assertIn('David Hasselhoff', test_PhoneAssignments.phones)
 
 
