@@ -35,13 +35,10 @@ class TestPhoneManager(unittest.TestCase):
     def test_create_and_add_new_employee(self):
         # TODO write this test and then remove the self.fail() statement
         # Add some employees and verify they are present in the PhoneAssignments.employees list
-        test_employee1 = Employee(1, 'David Hasselhoff')
-        test_employee2 = Employee(2, 'Gary Coleman')
+        test_employee1 = Employee(2, 'Gary')
         test_PhoneAssignments = PhoneAssignments()
         test_PhoneAssignments.add_employee(test_employee1)
-        test_PhoneAssignments.add_employee(test_employee2)
-        self.assertIn('David Hasselhoff', test_PhoneAssignments.employees)
-        self.assertIn('Gary Coleman', test_PhoneAssignments.employees)
+        self.assertIn('Gary', test_PhoneAssignments.employees)
 
 
     def test_create_and_add_employee_with_duplicate_id(self):
@@ -61,7 +58,8 @@ class TestPhoneManager(unittest.TestCase):
         # TODO write this test and remove the self.fail() statement
         # TODO you'll need to fix the assign method in PhoneAssignments
         test_PhoneAssignments = PhoneAssignments()
-        test_PhoneAssignments.add_phone(1)
+        test_phone = Phone(1, 'Samsung', 'Galaxy')
+        test_PhoneAssignments.add_phone(test_phone)
         test_PhoneAssignments.assign(1, 'David Hasselhoff')
         self.assertIn('David Hasselhoff', test_PhoneAssignments.phones)
 
